@@ -4,8 +4,8 @@ const con = mysql.createConnection({
   host: 'dbaws.cby2o20mozn6.us-east-2.rds.amazonaws.com',
   user: 'admin',
   port:"3306",
-  password: 'AWS123456anderson',
-  database: 'bd_producto',,
+  password: 'AWS123456ander',
+  database: 'bd_producto',
 });
 
 export const handler = async (event, context) => {
