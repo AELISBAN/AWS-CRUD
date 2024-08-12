@@ -92,11 +92,83 @@ export const handler = async (event, context) => {
 }; 
 
 ```
-# PRUEBAS CON  POSTMAN
+# PRUEBAS CON  POSTMAN: POST, GET, PUT y DELETE
+## Método GET
 
+**URL:**  
+`https://y4dy8yicwf.execute-api.us-east-2.amazonaws.com/implementacion`
+
+**Ejemplo de respuesta:**
+```json
+[
+    {
+        "id_estado": 1,
+        "estado": "activo"
+        
+    }
+]
+```
 ![image](https://github.com/user-attachments/assets/6790c4dd-d10a-4dec-95e3-67b69d30e1cc)
+# Method POST
+
+**Cuerpo de la solicitud:**
+
+```json
+{
+    
+    "estado" : "activo"
+    
+
+}
+```
+**Ejemplo de respuesta:**
+
+```json
+{
+    "message": "Se registró el valor"
+}
+```
 ![image](https://github.com/user-attachments/assets/a475f779-4a2f-45a8-be12-3bdae84d84e3)
+# Method PUT
+
+**Cuerpo de la solicitud:**
+
+```json
+{
+    "id_estado" : 3,
+    "estado" : "activo"
+    
+
+}
+```
+
+**Ejemplo de respuesta:**
+
+```json
+{
+    "message": "Se actualizó el valor"
+    
+}
+```
 ![image](https://github.com/user-attachments/assets/9559bc8b-2e4d-4baf-96b9-cb79c3776b19)
+# Method DELETE
+
+**Cuerpo de la solicitud:**
+
+```json
+{
+    "id" : 2
+}
+```
+
+**Ejemplo de respuesta:**
+
+```json
+{
+    "message": "se elimino el valor"
+    
+}
+```
 ![image](https://github.com/user-attachments/assets/9e1fc6ec-295b-466c-a614-1e41e3f8f9f2)
 
 
