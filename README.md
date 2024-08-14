@@ -96,7 +96,7 @@ export const handler = async (event, context) => {
 ## Método GET
 
 **URL:**  
-`https://y4dy8yicwf.execute-api.us-east-2.amazonaws.com/implementacion`
+`https://y4dy8`
 
 **Ejemplo de respuesta:**
 ```json
