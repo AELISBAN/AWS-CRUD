@@ -9,10 +9,10 @@ crear y desplegar un API CRUD utilizando AWS Lambda, API Gateway y MySQL con las
 ``` import mysql from 'mysql';
 
 const con = mysql.createConnection({
-  host: 'dbaws.cby2o20mozn6.us-east-2.rds.amazonaws.com',
-  user: 'admin',
+  host: 'dbaws.cby2o2230mozn6.us-east-223.rds.amazonaws.com',
+  user: 'admi1n',
   port:"3306",
-  password: 'AWS123456ander',
+  password: '123456789',
   database: 'bd_producto',
 });
 
